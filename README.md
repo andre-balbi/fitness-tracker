@@ -1,5 +1,6 @@
 # Monitor de Exercícios
 
+#### Introdução
 A falta de foco em programas de treinamento de força na literatura relacionada e a ausência de suporte dos rastreadores de atividade atuais 
 para exercícios com pesos livres são problemas que têm sido enfrentados por muitos entusiastas do fitness e profissionais da área. Com o crescente 
 interesse em tecnologias e aplicativos de monitoramento de atividades, existe um grande potencial para o desenvolvimento de soluções que possam ajudar 
@@ -46,7 +47,7 @@ Criar scripts para processar, visualizar e modelar os dados de acelerômetro e g
 
 Códigos originais: [`visualize.py`](src/visualization/visualize.py)
 
-Passo a passo explicado: [`02_visualize.ipynb`](src/visualization/02_visualize.ipynb)
+Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
 
 
 
