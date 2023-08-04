@@ -1,7 +1,8 @@
 # Monitor de Exercícios
 
 #### Introdução
-![exercise examples](PythonCode/images/barbell_exercises.png)
+
+
 A falta de foco em programas de treinamento de força na literatura relacionada e a ausência de suporte dos rastreadores de atividade atuais 
 para exercícios com pesos livres são problemas que têm sido enfrentados por muitos entusiastas do fitness e profissionais da área. Com o crescente 
 interesse em tecnologias e aplicativos de monitoramento de atividades, existe um grande potencial para o desenvolvimento de soluções que possam ajudar 
@@ -10,6 +11,9 @@ sustentabilidade, cuidados com idosos e saúde. Neste projeto, proponho explorar
 treinamento de força, utilizando dados coletados a partir de sensores de pulso (smart watch) para analisar exercícios com pesos livres. O objetivo é 
 desenvolver modelos que, assim como treinadores pessoais, acompanhem os exercícios, contem repetições e identifiquem exercícios, bem como formas 
 inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetivos de maneira mais eficiente e segura.
+
+Exercicios:
+![exercise examples](img/exercicios_basicos.png.png)
 
 
 
