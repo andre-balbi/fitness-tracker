@@ -8,7 +8,7 @@ import matplotlib as mpl
 
 df = pd.read_pickle("../../data/interim/01_data_resampled.pkl")
 
-df.query('category == "medium"').query('label == "row"').query('participant == "A"')
+df.query('category == "medium"').query('label == "row"').query('participant == "E"')
 
 # --------------------------------------------------------------
 # Plot single columns
@@ -60,7 +60,7 @@ mpl.rcParams["figure.dpi"] = 100
 
 label = "row"
 sensor = "acc_y"
-participant = "A"
+participant = "E"
 
 category_df = (
     df.query(f'label == "{label}"')
@@ -76,6 +76,10 @@ ax.set_xlabel("Samples")
 ax.set_ylabel("Acceleration [m/s^2]")
 plt.legend()
 plt.show()
+
+# --------------------------------------------------------------
+# Turn into afunction (plot_category_data)
+# --------------------------------------------------------------
 
 
 def plot_category_data(
@@ -138,6 +142,10 @@ ax.set_xlabel("Samples")
 ax.set_ylabel(f"Acceleration {sensor} [m/s^2]")
 plt.title(f"label: {label} \n category: {category}")
 plt.legend()
+
+# --------------------------------------------------------------
+# Turn into a function (plot_compare_participants)
+# --------------------------------------------------------------
 
 
 def plot_compare_participants(
@@ -325,6 +333,11 @@ for label in labels:
             plt.show()
 
 
+# --------------------------------------------------------------
+# Turn into a function (plot_combined_data)
+# --------------------------------------------------------------
+
+
 def plot_combined_data(df: pd.DataFrame, save_fig: bool = True) -> None:
     """
     Plot combined acceleration and angular velocity data for each label and participant.
@@ -375,9 +388,7 @@ def plot_combined_data(df: pd.DataFrame, save_fig: bool = True) -> None:
                 fig.suptitle(f"label: {label} \nparticipant: {participant}")
 
                 if save_fig:
-                    file_path = (
-                        f"../../reports/figures/{label}_{participant}.png"
-                    )
+                    file_path = f"../../reports/figures/{label}_{participant}.png"
                     plt.savefig(file_path)
                     print(f"Figure saved at: {file_path}")
 
