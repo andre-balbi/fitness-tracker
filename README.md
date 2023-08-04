@@ -44,9 +44,9 @@ Criar scripts para processar, visualizar e modelar os dados de acelerômetro e g
 5. Combinar os gráficos em uma única figura
 6. Looping para todas as combinações e exportar para ambos os sensores
 
-Códigos originais: [`visualize.py`](src/data/visualize.py)
+Códigos originais: [`visualize.py`](src/visualization/visualize.py)
 
-Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
+Passo a passo explicado: [`02_visualize.ipynb`](src/visualization/02_visualize.ipynb)
 
 
 
