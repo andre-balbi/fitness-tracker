@@ -15,7 +15,7 @@ inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetiv
 * Detectar forma inadequada do movimento
 
 #### Instalação
-Criar e ativar um ambiente da Anaconda e instalar todas as versões do pacote usando `conda env create -f environment.yml`.
+Criar, instalar e ativar o ambiente  Anaconda: `conda env create -f environment.yml`.
 
 ### **Etapa 01 - Preparação dos Dados**
 ---
@@ -27,7 +27,7 @@ Ler todos os arquivos CSV brutos separados, processa-los e mesclá-los em um ún
 05. Criar uma função personalizada
 06. Mesclar conjuntos de dados
 07. Resample dos dados (conversão de frequência)
-08. Exportar conjunto de dados intermediário
+08. Exportar conjunto de dados processados
 
 Códigos originais: [`make_dataset.ipynb`](src/data/make_dataset.py)
 
