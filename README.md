@@ -17,3 +17,6 @@ inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetiv
 
 #### Instalação
 Criar e ativar um ambiente da Anaconda e instalar todas as versões do pacote usando `conda env create -f environment.yml`.
+
+### Entendimento e Preparação dos Dados
+
