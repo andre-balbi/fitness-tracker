@@ -26,6 +26,10 @@ df[outlier_columns[:3] + ["label"]].boxplot(by="label", figsize=(20, 10), layout
 df[outlier_columns[3:] + ["label"]].boxplot(by="label", figsize=(20, 10), layout=(1, 3))
 plt.show()
 
+# --------------------------------------------------------------
+# Turn into a single function (plot_binary_outliers)
+# --------------------------------------------------------------
+
 
 def plot_binary_outliers(dataset, col, outlier_col, reset_index):
     """Plot outliers in case of a binary outlier score. Here, the col specifies the real
@@ -229,18 +233,6 @@ label = "bench"
 for col in outlier_columns:
     dataset = mark_outliers_iqr(df[df["label"] == label], col)
     plot_binary_outliers(dataset, col, col + "_outlier", True)
-
-# Chauvenet
-for col in outlier_columns:
-    dataset = mark_outliers_chauvenet(df[df["label"] == label], col)
-    plot_binary_outliers(dataset, col, col + "_outlier", True)
-
-# Local Outlier Factor
-dataset, outliers, X_scores = mark_outliers_lof(
-    df[df["label"] == label], outlier_columns
-)
-for col in outlier_columns:
-    plot_binary_outliers(dataset, col, "outlier_lof", True)
 
 # --------------------------------------------------------------
 # Choose method and deal with outliers

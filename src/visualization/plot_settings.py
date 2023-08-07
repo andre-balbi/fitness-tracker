@@ -24,7 +24,7 @@ mpl.rcParams["figure.dpi"] = 100
 
 mpl.style.use("fivethirtyeight")
 mpl.rcParams["figure.figsize"] = (15, 8)
-mpl.rcParams["figure.dpi"] = 100
+mpl.rcParams["figure.dpi"] = 50
 mpl.rcParams["lines.linewidth"] = 2
 mpl.rcParams["font.size"] = 12
 mpl.rcParams["figure.titlesize"] = 25
