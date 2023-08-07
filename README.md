@@ -65,7 +65,7 @@ Verifique se existem quaisquer valores atípicos (valores extremos) em nossos da
 8. Substituindo valores atípicos
 
 
-Códigos originais: [`remove_outliers.py`](src/data/remove_outliers.py)
+Códigos originais: [`remove_outliers.py`](src/features/remove_outliers.py)
 
 Passo a passo explicado: [`03_remove_outliers.ipynb`](notebooks/03_remove_outliers.ipynb)
 
