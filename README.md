@@ -1,8 +1,6 @@
 # Monitor de Exercícios
 
 #### Introdução
-
-
 A falta de foco em programas de treinamento de força na literatura relacionada e a ausência de suporte dos rastreadores de atividade atuais 
 para exercícios com pesos livres são problemas que têm sido enfrentados por muitos entusiastas do fitness e profissionais da área. Com o crescente 
 interesse em tecnologias e aplicativos de monitoramento de atividades, existe um grande potencial para o desenvolvimento de soluções que possam ajudar 
@@ -12,8 +10,8 @@ treinamento de força, utilizando dados coletados a partir de sensores de pulso 
 desenvolver modelos que, assim como treinadores pessoais, acompanhem os exercícios, contem repetições e identifiquem exercícios, bem como formas 
 inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetivos de maneira mais eficiente e segura.
 
-Exercicios:
-![exercise examples](img/exercicios_basicos.png.png)
+#### Exercicios
+![exercise examples](img/exercicios_basicos.png)
 
 
 
@@ -55,6 +53,21 @@ Criar scripts para processar, visualizar e modelar os dados de acelerômetro e g
 Códigos originais: [`visualize.py`](src/visualization/visualize.py)
 
 Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
+
+#
+### **Etapa 04 - Lidando com Outliers**
+Verifique se existem quaisquer valores atípicos (valores extremos) em nossos dados que desejamos remover utilizando vários métodos. 
+
+2. Diagramas de caixa e amplitude interquartil (IQR)
+3. Plotagem de valores atípicos ao longo do tempo
+4. Função para marcar valores atípicos usando diversos critérios (IQR, Chauvenet e Fator de Valor Atípico Local)
+7. Verificando valores atípicos agrupados por rótulo
+8. Substituindo valores atípicos
+
+
+Códigos originais: [`remove_outliers.py`](src/data/remove_outliers.py)
+
+Passo a passo explicado: [`03_remove_outliers.ipynb`](notebooks/03_remove_outliers.ipynb)
 
 
 
