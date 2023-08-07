@@ -55,7 +55,7 @@ Códigos originais: [`visualize.py`](src/visualization/visualize.py)
 Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
 
 #
-### **Etapa 04 - Lidando com Outliers**
+### **Etapa 03 - Lidando com Outliers**
 Verifique se existem quaisquer valores atípicos (valores extremos) em nossos dados que desejamos remover utilizando vários métodos. 
 
 2. Diagramas de caixa e amplitude interquartil (IQR)
