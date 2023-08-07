@@ -10,6 +10,11 @@ treinamento de força, utilizando dados coletados a partir de sensores de pulso 
 desenvolver modelos que, assim como treinadores pessoais, acompanhem os exercícios, contem repetições e identifiquem exercícios, bem como formas 
 inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetivos de maneira mais eficiente e segura.
 
+#### Exercicios
+![exercise examples](img/exercicios_basicos.png)
+
+
+
 #### Objetivos
 * Classificar os exercícios básicos com barra
 * Contar o número de repetições
@@ -48,6 +53,21 @@ Criar scripts para processar, visualizar e modelar os dados de acelerômetro e g
 Códigos originais: [`visualize.py`](src/visualization/visualize.py)
 
 Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
+
+#
+### **Etapa 03 - Lidando com Outliers**
+Verifique se existem quaisquer valores atípicos (valores extremos) em nossos dados que desejamos remover utilizando vários métodos. 
+
+2. Diagramas de caixa e amplitude interquartil (IQR)
+3. Plotagem de valores atípicos ao longo do tempo
+4. Função para marcar valores atípicos usando diversos critérios (IQR, Chauvenet e Fator de Valor Atípico Local)
+7. Verificando valores atípicos agrupados por rótulo
+8. Substituindo valores atípicos
+
+
+Códigos originais: [`remove_outliers.py`](src/data/remove_outliers.py)
+
+Passo a passo explicado: [`03_remove_outliers.ipynb`](notebooks/03_remove_outliers.ipynb)
 
 
 
