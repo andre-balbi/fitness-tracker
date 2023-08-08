@@ -69,6 +69,27 @@ Códigos originais: [`remove_outliers.py`](src/features/remove_outliers.py)
 
 Passo a passo explicado: [`03_remove_outliers.ipynb`](notebooks/03_remove_outliers.ipynb)
 
+#
+### **Etapa 04 - Feature engineering**
+Filtrar ruidos e identificar partes dos dados que explicam a maior parte da variância utilizando PCA. Em seguida, adicionar recursos numéricos, temporais, de frequência e de agrupamento
+para gerar novas features.
+
+
+1. Lidando com valores ausentes
+2. Filtro passa-baixa (Butterworth)
+3. Aplicando PCA
+4. Raiz quadrada da soma dos quadrados (vetor r)
+5. Abstração temporal
+6. Abstração da frequência
+7. Lidando com "overlapping data" (overfitting)
+
+
+Códigos originais: [`build_features.py`](src/features/build_features.py)
+
+Passo a passo explicado: [`04_build_features.ipynb`](notebooks/04_build_features.ipynb)
+
+
+
 
 
 
