@@ -145,6 +145,11 @@ ax[0].legend(loc="upper center", bbox_to_anchor=(0.5, 1.15), fancybox=True, shad
 ax[1].legend(loc="upper center", bbox_to_anchor=(0.5, 1.15), fancybox=True, shadow=True)
 
 
+# --------------------------------------------------------------
+# Turn into a single function (plot_binary_outliers)
+# --------------------------------------------------------------
+
+
 def apply_and_plot_low_pass_filter(df, set_value, sensor_column, fs, cutoff, order=5):
     """
     Apply a low-pass filter to the specified sensor column in the DataFrame for a given dataset.
