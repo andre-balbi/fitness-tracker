@@ -56,13 +56,13 @@ Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
 
 #
 ### **Etapa 03 - Lidando com Outliers**
-Verifique se existem quaisquer valores atípicos (valores extremos) em nossos dados que desejamos remover utilizando vários métodos. 
+Verificar se existem quaisquer valores atípicos (outliers) nos dados dados que desejamos remover.
 
-2. Diagramas de caixa e amplitude interquartil (IQR)
-3. Plotagem de valores atípicos ao longo do tempo
-4. Função para marcar valores atípicos usando diversos critérios (IQR, Chauvenet e Fator de Valor Atípico Local)
-7. Verificando valores atípicos agrupados por rótulo
-8. Substituindo valores atípicos
+1. Diagramas de caixa e amplitude interquartil (IQR)
+2. Plotagem de valores atípicos ao longo do tempo
+3. Função para marcar valores atípicos aplicando diversos métodps (IQR, Chauvenet e Fator de Valor Atípico Local)
+4. Verificando outliers agrupados por rótulo
+5. Substituindo outliers
 
 
 Códigos originais: [`remove_outliers.py`](src/features/remove_outliers.py)
