@@ -99,8 +99,7 @@ Realizar experimentos para a seleção das features, escolha do modelo e ajuste 
 4. Aplição de vários modelos e "Grid search" para a definição dos hiperparâmetros
 5. Comparação dos resultados
 6. Seleção do melhor modelo e avaliação dos resultados
-7. Teste de um modelo mais simples com os recursos selecionados
-8. Discussão dos resultados
+7. Teste de um modelo mais simples
 
 
 Códigos originais: [`train_model.py`](src/models/train_model.py)
