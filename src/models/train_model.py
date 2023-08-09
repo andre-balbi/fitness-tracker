@@ -117,7 +117,7 @@ feature_names = [
 iterations = 1  # Just one iteration
 score_df = pd.DataFrame()
 
-# This code snippet performs a systematic evaluation of different feature sets using
+# This code performs a systematic evaluation of different feature sets using
 # multiple classifiers. The goal is to compare the performance of these classifiers for
 # various combinations of features and identify which feature set works best with each
 # classifier. The results are saved in the DataFrame score_df, which can be further
@@ -351,7 +351,7 @@ plt.grid(False)
 plt.show()
 
 # --------------------------------------------------------------
-# Try a mor complex model using more features
+# Try a more complex model using more features
 # --------------------------------------------------------------
 
 print("Training NN (Feature set 4) - Participant 'A' dropped to use it as test")
