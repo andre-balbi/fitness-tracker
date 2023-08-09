@@ -104,7 +104,7 @@ Realizar experimentos para a seleção das features, escolha do modelo e ajuste 
 
 Códigos originais: [`train_model.py`](src/models/train_model.py)
 
-Passo a passo explicado: [`05_train_model.ipynb`](notebooks/train_model.ipynb)
+Passo a passo explicado: [`05_train_model.ipynb`](notebooks/05_train_model.ipynb)
 
 
 
