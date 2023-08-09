@@ -69,6 +69,46 @@ Códigos originais: [`remove_outliers.py`](src/features/remove_outliers.py)
 
 Passo a passo explicado: [`03_remove_outliers.ipynb`](notebooks/03_remove_outliers.ipynb)
 
+#
+### **Etapa 04 - Feature Engineering**
+Filtrar ruidos e identificar partes dos dados que explicam a maior parte da variância utilizando PCA. Em seguida, adicionar recursos numéricos, temporais, de frequência e de agrupamento
+para gerar novas features.
+
+
+1. Lidando com valores ausentes
+2. Filtro passa-baixa (Butterworth)
+3. Aplicando PCA
+4. Raiz quadrada da soma dos quadrados (vetor r)
+5. Abstração temporal
+6. Abstração da frequência
+7. Lidando com "overlapping data" (overfitting)
+
+
+Códigos originais: [`build_features.py`](src/features/build_features.py)
+
+Passo a passo explicado: [`04_build_features.ipynb`](notebooks/04_build_features.ipynb)
+
+#
+### **Etapa 05 - Treinando o Modelo**
+Realizar experimentos para a seleção das features, escolha do modelo e ajuste dos hiperparâmetros em busca da combinação que resulta na maior precisão para a classificação dos exercícios.
+
+
+1. Criação do conjunto de treinamento e de teste
+2. Divisão das features em subconjuntos
+3. "Forward feature selection" utilizando árvore de decisão simples
+4. Aplição de vários modelos e "Grid search" para a definição dos hiperparâmetros
+5. Comparação dos resultados
+6. Seleção do melhor modelo e avaliação dos resultados
+7. Teste de um modelo mais simples com os recursos selecionados
+8. Discussão dos resultados
+
+
+Códigos originais: [`train_model.py`](src/models/train_model.py)
+
+Passo a passo explicado: [`05_train_model.ipynb`](notebooks/train_model.ipynb)
+
+
+
 
 
 
