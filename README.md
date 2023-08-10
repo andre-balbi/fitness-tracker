@@ -106,6 +106,20 @@ Códigos originais: [`train_model.py`](src/models/train_model.py)
 
 Passo a passo explicado: [`05_train_model.ipynb`](notebooks/05_train_model.ipynb)
 
+### **Etapa 06 - Contando Repetições**
+Criar um script em Python que pode contar repetições e mensurar a eficiência do código.
+
+1. Visualizar os dados para identificar padrões
+2. Configurar o Filtro Passa-Baixa (Butterworth)
+3. Criar uma função para contar repetições
+4. Criar um dataframe de referência (benchmark)
+5. Avaliar os resultados (MAE)
+
+
+Códigos originais: [`count_repetitions.py`](src/features/count_repetitions.py)
+
+Passo a passo explicado: [`06_count_repetitions.ipynb`](notebooks/06_count_repetitions.ipynb)
+
 
 
 
