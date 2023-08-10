@@ -40,7 +40,7 @@ Códigos originais: [`make_dataset.py`](src/data/make_dataset.py)
 Passo a passo explicado: [`01_make_dataset.ipynb`](notebooks/01_make_dataset.ipynb)
 
 ---
-### **Etapa 02 - EDA**
+### **Etapa 02 - Exploratory Data Analysis (EDA)**
 Criar scripts para processar, visualizar e modelar os dados de acelerômetro e giroscópio. 
 
 1. Plotar as séries temporais de todos os exercícios
