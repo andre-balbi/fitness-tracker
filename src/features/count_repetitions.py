@@ -149,7 +149,7 @@ def count_reps(
         # After applying the filter
         data.plot(label="filtered")
         # Plot the peaks
-        plt.scatter(x=idx_max, y=peaks, c="red", s=100, label=f"peaks ({num_peaks})")
+        plt.scatter(x=idx_max, y=peaks, c="red", s=100, label=f"peaks ({len(peaks)})")
         label = dataset["label"].iloc[0].title()
         category = dataset["category"].iloc[0].title()
         ax.set_ylabel(f"{columns}_lowpass")
