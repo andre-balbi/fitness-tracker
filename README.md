@@ -106,6 +106,7 @@ Códigos originais: [`train_model.py`](src/models/train_model.py)
 
 Passo a passo explicado: [`05_train_model.ipynb`](notebooks/05_train_model.ipynb)
 
+#
 ### **Etapa 06 - Contando Repetições**
 Criar um script em Python que pode contar repetições e mensurar a eficiência do código.
 
