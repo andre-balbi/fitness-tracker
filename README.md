@@ -23,7 +23,7 @@ inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetiv
 #### Instalação
 Criar, instalar e ativar o ambiente  Anaconda: `conda env create -f environment.yml`.
 
-#
+---
 ### **Etapa 01 - Preparação dos Dados**
 Ler todos os arquivos CSV brutos separados, processa-los e mesclá-los em um único conjunto de dados.
 1. Conjunto de dados em → data/raw
@@ -39,7 +39,7 @@ Códigos originais: [`make_dataset.py`](src/data/make_dataset.py)
 
 Passo a passo explicado: [`01_make_dataset.ipynb`](notebooks/01_make_dataset.ipynb)
 
-#
+---
 ### **Etapa 02 - EDA**
 Criar scripts para processar, visualizar e modelar os dados de acelerômetro e giroscópio. 
 
@@ -54,7 +54,7 @@ Códigos originais: [`visualize.py`](src/visualization/visualize.py)
 
 Passo a passo explicado: [`02_visualize.ipynb`](notebooks/02_visualize.ipynb)
 
-#
+---
 ### **Etapa 03 - Lidando com Outliers**
 Verificar se existem quaisquer valores atípicos (outliers) nos dados dados que desejamos remover.
 
@@ -69,7 +69,7 @@ Códigos originais: [`remove_outliers.py`](src/features/remove_outliers.py)
 
 Passo a passo explicado: [`03_remove_outliers.ipynb`](notebooks/03_remove_outliers.ipynb)
 
-#
+---
 ### **Etapa 04 - Feature Engineering**
 Filtrar ruidos e identificar partes dos dados que explicam a maior parte da variância utilizando PCA. Em seguida, adicionar recursos numéricos, temporais, de frequência e de agrupamento
 para gerar novas features.
@@ -88,7 +88,7 @@ Códigos originais: [`build_features.py`](src/features/build_features.py)
 
 Passo a passo explicado: [`04_build_features.ipynb`](notebooks/04_build_features.ipynb)
 
-#
+---
 ### **Etapa 05 - Treinando o Modelo**
 Realizar experimentos para a seleção das features, escolha do modelo e ajuste dos hiperparâmetros em busca da combinação que resulta na maior precisão para a classificação dos exercícios.
 
@@ -106,7 +106,7 @@ Códigos originais: [`train_model.py`](src/models/train_model.py)
 
 Passo a passo explicado: [`05_train_model.ipynb`](notebooks/05_train_model.ipynb)
 
-#
+---
 ### **Etapa 06 - Contando Repetições**
 Criar um script em Python que pode contar repetições e mensurar a eficiência do código.
 
