@@ -1,7 +1,8 @@
+from typing import List, Tuple, Union
+
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from typing import Union, List, Tuple
-import matplotlib.pyplot as plt
 from DataTransformation import LowPassFilter
 from scipy.signal import argrelextrema
 from sklearn.metrics import mean_absolute_error

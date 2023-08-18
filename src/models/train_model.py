@@ -1,11 +1,12 @@
+import itertools
+
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
-from LearningAlgorithms import ClassificationAlgorithms
 import seaborn as sns
-import itertools
+from LearningAlgorithms import ClassificationAlgorithms
 from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.model_selection import train_test_split
 
 # --------------------------------------------------------------
 # Load data

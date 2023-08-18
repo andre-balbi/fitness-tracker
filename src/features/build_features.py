@@ -1,11 +1,10 @@
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from DataTransformation import LowPassFilter, PrincipalComponentAnalysis
-from TemporalAbstraction import NumericalAbstraction
 from FrequencyAbstraction import FourierTransformation
 from sklearn.cluster import KMeans
-
+from TemporalAbstraction import NumericalAbstraction
 
 # --------------------------------------------------------------
 # Load data

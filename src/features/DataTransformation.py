@@ -9,10 +9,12 @@
 
 # Updated by Dave Ebbelaar on 22-12-2022
 
-from sklearn.decomposition import PCA
-from scipy.signal import butter, lfilter, filtfilt
 import copy
+
 import pandas as pd
+from scipy.signal import butter, filtfilt, lfilter
+from sklearn.decomposition import PCA
+
 
 # This class removes the high frequency data (that might be considered noise) from the data.
 # We can only apply this when we do not have missing values (i.e. NaN).
