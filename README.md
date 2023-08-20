@@ -89,7 +89,7 @@ Realizar experimentos para a seleção das features, escolha do modelo e ajuste 
 1. Criação do conjunto de treinamento e de teste
 2. Divisão das features em subconjuntos
 3. "Forward feature selection" utilizando árvore de decisão simples
-4. Aplição de vários modelos e "Grid search" para a definição dos hiperparâmetros
+4. Aplicação de vários modelos e "Grid search" para a definição dos hiperparâmetros
 5. Comparação dos resultados
 6. Seleção do melhor modelo e avaliação dos resultados
 7. Teste de um modelo mais simples
@@ -113,6 +113,7 @@ Criar um script em Python que pode contar repetições e mensurar a eficiência 
 Códigos originais: [`count_repetitions.py`](src/features/count_repetitions.py)
 
 Passo a passo explicado: [`06_count_repetitions.ipynb`](notebooks/06_count_repetitions.ipynb)
+
 
 
 
