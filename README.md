@@ -1,14 +1,7 @@
 # Monitor de Exercícios
 
 #### Introdução
-A falta de foco em programas de treinamento de força na literatura relacionada e a ausência de suporte dos rastreadores de atividade atuais 
-para exercícios com pesos livres são problemas que têm sido enfrentados por muitos entusiastas do fitness e profissionais da área. Com o crescente 
-interesse em tecnologias e aplicativos de monitoramento de atividades, existe um grande potencial para o desenvolvimento de soluções que possam ajudar 
-a preencher essa lacuna. Além disso, o reconhecimento de atividade pode ser empregado para enfrentar desafios sociais significativos, como reabilitação, 
-sustentabilidade, cuidados com idosos e saúde. Neste projeto, proponho explorar as possibilidades de aplicativos sensíveis ao contexto no campo do 
-treinamento de força, utilizando dados coletados a partir de sensores de pulso (smart watch) para analisar exercícios com pesos livres. O objetivo é 
-desenvolver modelos que, assim como treinadores pessoais, acompanhem os exercícios, contem repetições e identifiquem exercícios, bem como formas 
-inadequadas de execução, a fim de auxiliar os usuários a atingir seus objetivos de maneira mais eficiente e segura.
+A escassez de enfoque nos programas de treino de força na literatura conexa e a ausência de apoio dos rastreadores de atividade atuais para exercícios com pesos livres representam desafios enfrentados por muitos entusiastas e profissionais de fitness. Com o crescente interesse em tecnologias e aplicativos de monitoramento de atividades, emerge um vasto potencial para o desenvolvimento de soluções que mitiguem essa lacuna. Além disso, a identificação de atividade pode ser aplicada para abordar desafios sociais substanciais, abrangendo reabilitação, sustentabilidade, cuidados geriátricos e saúde. Este projeto propõe explorar as potencialidades de aplicativos adaptados ao contexto no domínio do treino de força, empregando dados obtidos a partir de sensores de pulso (smartwatches) para analisar exercícios com pesos livres. O intento é forjar modelos que, à semelhança de treinadores pessoais, acompanhem os exercícios, contabilizem repetições, identifiquem movimentos e desvelando formas inapropriadas de execução, almejando auxiliar os usuários a concretizarem seus objetivos de maneira mais eficaz e segura.
 
 #### Exercicios
 ![exercise examples](img/exercicios_basicos.png)
